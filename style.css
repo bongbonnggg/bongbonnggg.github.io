@@ -1,0 +1,36 @@
+:root {
+  --main-font: "Amatic Sc", sans-serif;
+  --bg-color: #eaf2f3;
+  --pink: #f2b9c3;
+  --violet: #bab9f2;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: var(--main-font);
+  margin: 0;
+}
+.container {
+  width: 1450px;
+  display: block;
+  margin: 0 auto;
+}
+header {
+  background: var(--violet);
+  font-size: 25px;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  padding-left: 50px;
+  font-weight: 800;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  padding-right: 50px;
+}
