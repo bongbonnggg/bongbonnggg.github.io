@@ -15,22 +15,3 @@ body {
   display: block;
   margin: 0 auto;
 }
-header {
-  background: var(--violet);
-  font-size: 25px;
-}
-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-header .logo {
-  padding-left: 50px;
-  font-weight: 800;
-}
-header ul {
-  display: flex;
-  list-style: none;
-}
-header ul li {
-  padding-right: 50px;
-}
