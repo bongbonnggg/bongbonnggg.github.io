@@ -1,13 +1,19 @@
 :root {
-  --main-font: "Oswald", sans-serif;
+  --main-font: "Mansalva", sans-serif;
   --bg-color: #eaf2f3;
   --yellow: #f2c94c;
-  --violet: #bab9f2;
+  --violet: #3f51b5;
 }
 body {
   background: var(--bg-color);
   font-family: var(--main-font);
-  padding: 100px;
+  padding-top: 50px;
+}
+.container {
+  width: 80%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
 }
 .wrapper {
   display: flex;
@@ -16,9 +22,10 @@ body {
   border-radius: 3px;
   margin-right: 10px;
   box-sizing: border-box;
+  box-shadow: 1px 1px 4px 2px #000;
 }
 .box.about {
-  background-color: var(--yellow);
+  border: 2px solid #000;
   width: 500px;
   height: 280px;
   display: flex;
@@ -28,11 +35,20 @@ body {
 .box.about img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
   margin-right: 20px;
 }
 .box.contact {
-  background: var(--violet);
+  border: 1px solid #000;
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.box.services {
+  border: 1px solid #000;
   width: 250px;
   height: 280px;
   display: flex;
