@@ -1,5 +1,5 @@
 :root {
-  --main-font: "Amatic Sc", sans-serif;
+  --main-font: "Oswald", sans-serif;
   --bg-color: #eaf2f3;
   --pink: #f2b9c3;
   --violet: #bab9f2;
@@ -12,4 +12,6 @@ body {
 }
 .box {
   background-color: var(--pink);
+  width: 500px;
+  height: 280px;
 }
