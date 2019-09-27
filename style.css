@@ -10,3 +10,6 @@ body {
   font-family: var(--main-font);
   padding: 100px;
 }
+.box {
+  background-color: var(--pink);
+}
