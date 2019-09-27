@@ -1,17 +1,42 @@
 :root {
   --main-font: "Oswald", sans-serif;
   --bg-color: #eaf2f3;
-  --pink: #f2b9c3;
+  --yellow: #f2c94c;
   --violet: #bab9f2;
 }
-
 body {
   background: var(--bg-color);
   font-family: var(--main-font);
   padding: 100px;
 }
+.wrapper {
+  display: flex;
+}
 .box {
-  background-color: var(--pink);
+  border-radius: 3px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+.box.about {
+  background-color: var(--yellow);
   width: 500px;
   height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.box.contact {
+  background: var(--violet);
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
 }
