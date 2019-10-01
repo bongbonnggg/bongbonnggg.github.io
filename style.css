@@ -27,6 +27,12 @@ header .name {
   font-size: 10px;
   border-bottom-right-radius: 58px;
 }
+header img {
+  position: absolute;
+  bottom: 12px;
+  left: 170px;
+  transform: scaleX(-1) translateX(0);
+}
 .container {
   width: 80%;
   max-width: 1000px;
