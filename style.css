@@ -8,20 +8,22 @@ body {
   margin: 0;
   background: var(--bg-color);
   font-family: var(--main-font);
+  overflow: hidden;
 }
 @keyframes plane {
   0% {
-    left: 170px;
+    top: 270px;
+    left: 0%;
   }
-  25% {
-    left: 420px;
-    transform: rotate(-20deg);
+  10% {
+    top: 325px;
   }
-  50% {
-    left: 700px;
-    transform: rotate(-10deg);
+  40% {
+    top: 200px;
   }
   100% {
+    top: 325px;
+    left: 100%;
   }
 }
 header {
@@ -43,10 +45,7 @@ header .name {
 }
 header img {
   position: absolute;
-  bottom: 12px;
-  left: 170px;
-  animation-name: plane;
-  animation-duration: 10s;
+  animation: plane 10s infinite forwards;
 }
 .container {
   width: 80%;
