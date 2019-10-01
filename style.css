@@ -9,6 +9,21 @@ body {
   background: var(--bg-color);
   font-family: var(--main-font);
 }
+@keyframes plane {
+  0% {
+    left: 170px;
+  }
+  25% {
+    left: 420px;
+    transform: rotate(-20deg);
+  }
+  50% {
+    left: 700px;
+    transform: rotate(-10deg);
+  }
+  100% {
+  }
+}
 header {
   background-image: url("/images/darkness.png");
   height: 400px;
@@ -21,7 +36,6 @@ header .name {
   left: 135px;
   width: 350px;
   text-align: center;
-  /* border: 2px solid #000; */
   box-shadow: 0px 0px 2px 2px #39ff14;
   color: #fff;
   font-size: 10px;
@@ -31,7 +45,8 @@ header img {
   position: absolute;
   bottom: 12px;
   left: 170px;
-  transform: scaleX(-1) translateX(0);
+  animation-name: plane;
+  animation-duration: 10s;
 }
 .container {
   width: 80%;
