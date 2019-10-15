@@ -1,6 +1,36 @@
 :root {
-  --bg-color: ;
+  --bg-color: #568ea6;
+  --pink: #f18c8e;
+  --orange: #f0b7a4;
+  --yellow: #f1d1b5;
+  --dark: #305f72;
 }
 body {
   font-family: "Comfortaa", cursive;
+  background-color: var(--bg-color);
+  margin: 50px;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  width: 200px;
+  height: 60px;
+}
+header .logo img {
+  width: 100%;
+}
+header .menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header .menu ul li {
+  margin-left: 25px;
+}
+header .menu ul li a {
+  color: #fff;
+  text-decoration: none;
 }
