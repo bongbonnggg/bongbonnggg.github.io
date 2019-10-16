@@ -6,7 +6,8 @@
 }
 body {
   font-family: "Comfortaa", cursive;
-  background-color: #e0d9d2;
+  height: 100vh;
+  margin: 0;
 }
 .container {
   width: 1200px;
@@ -16,7 +17,7 @@ body {
 header .logo {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  padding: 50px 0;
 }
 header .logo img {
   width: 220px;
@@ -39,6 +40,6 @@ header .menu ul li a {
 main .banner {
   width: 100%;
   height: 600px;
-  background-color: #9eb371;
+  background-color: #f0f0f0;
   margin-top: 50px;
 }
