@@ -1,3 +1,3 @@
-# bongbonnggg.github.io
+Alvin Alolor
 
-#My Own Portfolio
+This is my own portfolio. For more info visit my site. :D
