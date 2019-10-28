@@ -13,15 +13,30 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
-/* !Navigation Bar */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* Navigation Bar */
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2%;
+}
 nav .flex-wrap {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 nav .text {
   display: flex;
   align-items: center;
+  color: #fff;
 }
 nav .text ul {
   display: flex;
@@ -32,4 +47,21 @@ nav .text ul {
 }
 nav .text ul li {
   margin-right: 40px;
+}
+
+/* Banner */
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(/images/banner.jpg);
+}
+#banner h1 {
+  color: #b7b2ee;
+  font-size: 50px;
+}
+#banner p {
+  color: #fdecec;
 }
