@@ -8,6 +8,7 @@ body {
   font-family: "Comfortaa", cursive;
   height: 100vh;
   margin: 0;
+  overflow: hidden;
 }
 .container {
   width: 1200px;
@@ -21,7 +22,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: "Karla", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 header .logo {
   display: flex;
@@ -41,16 +42,56 @@ header .menu ul {
 }
 header .menu ul li {
   margin: 0 20px;
+  transition: all 0.3s ease;
+  padding: 25px 0;
 }
 header .menu ul li a {
   text-decoration: none;
   color: #000;
 }
 main .banner {
-  width: 100%;
+  width: 600px;
   height: 600px;
   background-color: #f0f0f0;
-  margin-top: 50px;
   padding: 50px;
   box-sizing: border-box;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  animation: box 5s infinite;
+  margin: 25px auto 0;
+  position: relative;
+}
+main .banner h1 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* !TEST */
+header .menu ul li:hover {
+  color: #e17878;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes box {
+  0% {
+    border-radius: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+    background: #e17878;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
