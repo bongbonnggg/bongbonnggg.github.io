@@ -34,7 +34,7 @@ header img {
 header .wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 header ul {
   display: flex;
