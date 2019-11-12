@@ -1,80 +1,13 @@
-:root {
-  --pink: #e17878;
-  --green: #9eb371;
-  --white: #e0d9d2;
-  --gray: #767771;
-}
 body {
-  font-family: "Rubik", sans-serif;
   margin: 0;
+  font-family: "Capriola", sans-serif;
 }
 .container {
+  width: 80%;
+  max-width: 1200px;
   display: block;
   margin: 0 auto;
-  width: 1200px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-/* Navigation Bar */
-nav {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 2%;
-}
-nav .flex-wrap {
-  display: flex;
-  justify-content: space-between;
-  /* padding-top: 20px; */
-}
-nav .text {
-  display: flex;
-  align-items: center;
-}
-nav .text ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-}
-nav .text ul li {
-  margin-right: 40px;
-}
-nav .text ul li a {
-  text-decoration: none;
-  color: #f9e7e7;
-}
-
-/* Banner */
-#banner {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: url(/images/banner.jpg);
-}
-#banner h1 {
-  color: #ec612a;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-#banner h2 {
-  color: #b7b2ee;
-  font-size: 50px;
-  line-height: 1.4;
-  padding: 10px 0 20px;
-}
-#banner p {
-  color: #fdecec;
-  line-height: 2;
+header img {
+  width: 200px;
 }
