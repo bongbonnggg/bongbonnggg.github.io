@@ -43,11 +43,19 @@ header ul {
 header ul li {
   margin-left: 60px;
 }
+header ul li a {
+  color: #fff;
+}
+
+/* MAIN */
+main {
+  margin-top: -77px;
+}
 
 /* BANNER */
 #banner {
   background: url(/images/banner-bg.jpg);
-  padding: 100px 0;
+  padding: 200px 0 100px;
 }
 #banner .wrapper {
   display: flex;
@@ -71,6 +79,7 @@ header ul li {
   line-height: 1.7;
   padding-top: 30px;
   padding-bottom: 50px;
+  font-weight: 300;
 }
 #banner .content a {
   color: #fff;
