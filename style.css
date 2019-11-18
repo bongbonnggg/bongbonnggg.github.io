@@ -105,4 +105,23 @@ header ul li a {
   background: #fff;
   flex: 1;
   margin: 0 15px;
+  padding: 30px;
+  position: relative;
+  border-radius: 5px;
+}
+#services .card h3 {
+  font-size: 28px;
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+#services .card p {
+  font-weight: 300;
+}
+#services .card i {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 120px;
+  color: #a33327;
+  opacity: 0.5;
 }
