@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  background: url(/images/banner-bg.jpg);
+  background: url(/images/background.jpg);
 }
 h1,
 h2,
@@ -100,14 +100,16 @@ header ul li a {
 }
 #services .wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #services .card {
   background: #fff;
-  flex: 1;
-  margin: 0 15px;
+  width: 530px;
   padding: 30px;
   position: relative;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 #services .card h3 {
   font-size: 28px;
@@ -124,4 +126,13 @@ header ul li a {
   font-size: 120px;
   color: #a33327;
   opacity: 0.5;
+}
+#services .card i.fa-wordpress {
+  color: #21759b;
+}
+#services .card i.fa-mobile-alt {
+  color: #b71c1c;
+}
+#services .card i.fa-html5 {
+  color: #e34c26;
 }
