@@ -98,18 +98,32 @@ header ul li a {
 #services {
   padding: 150px 0;
 }
+#services .title {
+  color: #a33327;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  background: transparent;
+}
 #services .wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 #services .card {
-  background: #fff;
+  background: transparent;
   width: 530px;
   padding: 30px;
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
+  color: #fff;
+  border: 1px solid #a33327;
 }
 #services .card h3 {
   font-size: 28px;
@@ -125,14 +139,53 @@ header ul li a {
   right: 30px;
   font-size: 120px;
   color: #a33327;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #services .card i.fa-wordpress {
-  color: #21759b;
+  color: #a33327;
 }
 #services .card i.fa-mobile-alt {
-  color: #b71c1c;
+  color: #a33327;
 }
 #services .card i.fa-html5 {
-  color: #e34c26;
+  color: #a33327;
+}
+
+/* SKILLS */
+#stats .title {
+  color: #a33327;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  background: transparent;
+}
+#stats .wrapper {
+  display: flex;
+}
+#stats .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+#stats .left {
+  flex: 40%;
+}
+#stats .right {
+  flex: 60%;
+}
+#stats .left .box {
+  flex: 50%;
+  margin-bottom: 50px;
+}
+#stats .left .box h3 {
+  font-size: 60px;
+  color: #a33327;
+  line-height: 1em;
+}
+#stats .left .box p {
+  color: #fff;
 }
