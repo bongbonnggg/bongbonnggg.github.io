@@ -38,8 +38,7 @@ header img {
 header .wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
-  padding: 0 15px;
+  margin: 10px;
 }
 header ul {
   display: flex;
@@ -63,7 +62,7 @@ header ul li a {
 }
 #banner .content {
   flex: 1;
-  margin: 0 15px;
+  margin: 10px;
 }
 #banner .content h1 {
   font-size: 60px;
@@ -117,13 +116,14 @@ header ul li a {
 }
 #services .card {
   background: transparent;
-  width: 530px;
+  width: calc(50% - 20px);
   padding: 30px;
   position: relative;
   border-radius: 5px;
-  margin-bottom: 20px;
   color: #fff;
   border: 1px solid #a33327;
+  box-sizing: border-box;
+  margin: 10px;
 }
 #services .card h3 {
   font-size: 28px;
@@ -166,26 +166,21 @@ header ul li a {
 }
 #stats .wrapper {
   display: flex;
+  justify-content: space-between;
 }
-#stats .left {
-  display: flex;
-  flex-wrap: wrap;
+#stats .wrapper .box {
+  flex: 20%;
+  margin: 10px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #a33327;
 }
-#stats .left {
-  flex: 40%;
-}
-#stats .right {
-  flex: 60%;
-}
-#stats .left .box {
-  flex: 50%;
-  margin-bottom: 50px;
-}
-#stats .left .box h3 {
-  font-size: 60px;
+#stats h3 {
+  font-size: 75px;
   color: #a33327;
-  line-height: 1em;
+  line-height: 1;
 }
-#stats .left .box p {
+#stats p {
   color: #fff;
 }
