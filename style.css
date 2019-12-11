@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif;
   background: url(/images/background.jpg);
+  color: #fff;
 }
 h1,
 h2,
@@ -20,6 +21,18 @@ p,
 a {
   margin: 0;
   text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+}
+h5 {
+  font-size: 22px;
+}
+h6 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
 }
 .container {
   width: 80%;
@@ -186,3 +199,6 @@ header ul li a {
 }
 
 /* FOOTER */
+footer {
+  margin-top: 100px;
+}
