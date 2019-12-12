@@ -15,8 +15,19 @@ h1 {
   margin: 0;
   text-decoration: none;
   font-size: 60px;
+  line-height: 68px;
 }
 h2 {
+  margin: 0;
+  text-decoration: none;
+  font-size: 40px;
+}
+h3 {
+  margin: 0;
+  text-decoration: none;
+  font-size: 40px;
+}
+h4 {
   margin: 0;
   text-decoration: none;
   font-size: 40px;
@@ -47,7 +58,20 @@ a {
   display: block;
   margin: 0 auto;
 }
-
+.title {
+  color: #a33327;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  background: transparent;
+}
+section {
+  padding-bottom: 200px;
+}
 /* HEADER */
 header {
   margin: 10px 0;
@@ -73,7 +97,7 @@ header ul li a {
 
 /* BANNER */
 #banner {
-  padding: 200px 0 100px;
+  padding-top: 200px;
 }
 #banner .wrapper {
   display: flex;
@@ -113,9 +137,6 @@ header ul li a {
 }
 
 /* SERVICES */
-#services {
-  padding: 150px 0;
-}
 #services .title {
   color: #a33327;
   text-align: center;
