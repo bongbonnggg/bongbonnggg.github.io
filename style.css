@@ -225,6 +225,9 @@ header ul li a {
 #portfolio .wrapper .card {
   width: calc(33% - 15px);
 }
+#portfolio .wrapper .card img {
+  width: 100%;
+}
 
 /* FOOTER */
 footer {
