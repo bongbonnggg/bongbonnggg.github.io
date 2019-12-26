@@ -3,3 +3,35 @@ body {
   font-family: "Nunito", sans-serif !important;
   color: #a33327;
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.btn-red,
+.btn-red:hover,
+.btn-red:active,
+.btn-red:visited {
+  background-color: #a33327 !important;
+}
+/* Navigation Bar */
+nav * {
+  color: #a33327 !important;
+}
+
+/* First Section */
+#banner {
+  padding-top: 200px;
+}
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+  #banner {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #banner {
+    padding-top: 50px;
+  }
+}
