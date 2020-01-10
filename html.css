@@ -22,6 +22,18 @@ nav * {
 /* First Section */
 #banner {
   padding-top: 200px;
+  padding-bottom: 200px;
+}
+/* Services Section */
+#services {
+  padding-bottom: 200px;
+}
+#services h2 {
+  margin-bottom: 100px;
+}
+#services i {
+  font-size: 70px;
+  margin-bottom: 15px;
 }
 
 /* Responsive */
