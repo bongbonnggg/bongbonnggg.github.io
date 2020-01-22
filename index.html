@@ -6,196 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <div class="wrapper">
-                <a href="./index.html"><img src="/images/logo.png" alt=""></a>
-                <ul>
-                    <li><a href="./pages/about.html">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark px-0">
+        <a class="navbar-brand" href="#">
+            <img src="/images/Dreamer Inc.png" width="150" height="" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-0 pl-lg-5">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item pl-0 pl-lg-5">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item pl-0 pl-lg-5">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item pl-0 pl-lg-5">
+                    <a class="nav-link" href="#">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner">
+        <div class="row d-flex align-items-center flex-lg-row flex-column-reverse">
+            <div class="col-12 col-lg-6 text-center text-lg-left">
+                <h1 class="font-weight-bold m-0 pt-5">Alvin Alolor</h1>
+                <h5 class="text-white">Wordpress Developer</h5>
+                <p class="pt-3 pb-3">Eat fish on floor woops poop hanging from butt must get rid run run around house
+                    drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt
+                    now so attack like a vicious monster or this cat!</p>
+                <button class="btn btn-red text-white btn-lg">Contact Me</button>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="/images/banner-img.png" width="100%" alt="">
             </div>
         </div>
-    </header>
-    <main>
-        <section id="banner">
-            <div class="container">
-                <div class="wrapper flex">
-                    <div class="content">
-                        <h1>John Doe</h1>
-                        <h5>Wordpress Developer</h5>
-                        <p>Eat fish on floor woops poop hanging from butt must get rid run run around house drag poop on
-                            floor maybe it comes off woops left brown marks on floor human slave clean lick butt now so
-                            attack like a vicious monster or this cat happen now,</p>
-                        <a href="#">Download CV</a>
-                    </div>
-                    <div class="img">
-                        <img src="/images/banner-img.png" alt="">
-                    </div>
-                </div>
+    </section>
+    <section id="services">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center font-weight-bold">Services</h2>
             </div>
-        </section>
-        <section id="services">
-            <div class="container">
-                <div class="title">
-                    <h2>Services</h2>
-                </div>
-                <div class="wrapper flex">
-                    <div class="card" data-aos="fade-down-right" data-aos-duration="1000">
-                        <h3>Wordpress Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card bg-transparent mb-5 mb-lg-0">
+                    <div class="card-body p-0">
                         <i class="fab fa-wordpress"></i>
-                    </div>
-                    <div class="card" data-aos="fade-down-left" data-aos-duration="1000">
-                        <h3>SEO Services</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="card" data-aos="fade-right" data-aos-duration="1000">
-                        <h3>Responsive Design</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <div class="card" data-aos="fade-left" data-aos-duration="1000">
-                        <h3>eCommerce Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="card" data-aos="fade-up-right" data-aos-duration="1000">
-                        <h3>Social Media Management</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
-                        <i class="far fa-thumbs-up"></i>
-                    </div>
-                    <div class="card" data-aos="fade-up-left" data-aos-duration="1000">
-                        <h3>Website Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quaerat id est,
-                            deserunt aliquam cupiditate unde nostrum sint error cumque consequatur iure exercitationem
-                            harum! Explicabo rerum numquam exercitationem quasdm!</p>
-                        <i class="fab fa-html5"></i>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section id="stats">
-            <div class="container">
-                <div class="title">
-                    <h2>Experience</h2>
-                </div>
-                <div class="wrapper flex">
-                    <div class="box">
-                        <h3>6</h3>
-                        <p>months of working experience</p>
-                    </div>
-                    <div class="box">
-                        <h3>1</h3>
-                        <p>websites already made</p>
-                    </div>
-                    <div class="box">
-                        <h3>1</h3>
-                        <p>seminars attended</p>
-                    </div>
-                    <div class="box">
-                        <h3>0</h3>
-                        <p>No data</p>
-                    </div>
-                    <div class="box">
-                        <h3>0</h3>
-                        <p>No data</p>
+                        <h5 class="card-title font-weight-bold text-white">Wordpress Website Development</h5>
+                        <p class="card-text text-white">With supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="portfolio">
-            <div class="container">
-                <div class="title">
-                    <h2>Portfolio</h2>
-                </div>
-                <div class="wrapper flex">
-                    <div class="card">
-                        <img src="/images/website1.jpg" alt="">
-                        <h6>The Liszt</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit.</p>
-                    </div>
-                    <div class="card">
-                        <img src="/images/website1.jpg" alt="">
-                        <h6>The Liszt</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit.</p>
-                    </div>
-                    <div class="card">
-                        <img src="/images/website1.jpg" alt="">
-                        <h6>The Liszt</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit.</p>
+            <div class="col-12 col-md-4">
+                <div class="card bg-transparent mb-5 mb-lg-0">
+                    <div class="card-body p-0">
+                        <i class="fas fa-mail-bulk"></i>
+                        <h5 class="card-title font-weight-bold text-white">Social Media Ads & Management</h5>
+                        <p class="card-text text-white">With supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-
-
+            <div class="col-12 col-md-4">
+                <div class="card bg-transparent mb-5 mb-lg-0">
+                    <div class="card-body p-0">
+                        <i class="fas fa-palette"></i>
+                        <h5 class="card-title font-weight-bold text-white">Graphic and Design Work</h5>
+                        <p class="card-text text-white">With supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center font-weight-bold">Portfolio</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/images/website.jpg" width="100%" alt=""></div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="/images/logo.png" alt="" width="200px">
-                </div>
-                <div class="col">
-                    <h5>About Me</h5>
-                    <ul>
-                        <li><a href="#">about myself</a></li>
-                        <li><a href="#">experience</a></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Services</h5>
-                    <ul>
-                        <li><a href="#">wordpress development</a></li>
-                        <li><a href="#">website development</a></li>
-                        <li><a href="#">responsive web design</a></li>
-                        <li><a href="#">social media management</a></li>
-                        <li><a href="#">ecommerce development</a></li>
-                        <li><a href="#">seo</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">portfolio</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">contact me</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col">
+                <img src="/images/Dreamer Inc.png" width="150px" class="mb-3">
+                <p class="text-white">With supporting text below as a natural lead-in to additional content. </p>
+            </div>
+            <div class="col">
+                <h5 class="text-white">Services</h5>
+            </div>
+            <div class="col">
+                <h5 class="text-white">Quick Links</h5>
+            </div>
+            <div class="col">
+                <h5 class="text-white">Services</h5>
             </div>
         </div>
     </footer>
-    <script>
-        AOS.init();
-    </script>
 
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 
 </html>
