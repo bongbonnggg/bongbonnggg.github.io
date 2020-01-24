@@ -43,12 +43,29 @@ nav * {
   margin-bottom: 100px;
 }
 
+/* About */
+#about {
+  padding-top: 200px;
+}
+#experience {
+  margin-top: 100px;
+}
+#experience .card {
+  border: 1px solid #a33327;
+}
+
 /* Footer */
 footer {
   padding: 50px 0;
   border-top: 1px solid #ddd;
 }
-
+footer ul li a {
+  color: #ddd;
+}
+footer ul li a:hover {
+  color: #a33327;
+  text-decoration: none;
+}
 /* Swiper */
 .swiper-container {
   width: 100%;
