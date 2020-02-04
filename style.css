@@ -96,3 +96,26 @@ footer ul li a:hover {
     padding-top: 50px;
   }
 }
+
+/* !TEST */
+#monitor {
+  position: absolute;
+  width: 95px;
+  left: 289px;
+  top: 58px;
+  z-index: -1;
+}
+#monitor1 {
+  position: absolute;
+  width: 95px;
+  left: 234px;
+  top: 129px;
+  z-index: -1;
+}
+#monitor2 {
+  position: absolute;
+  width: 100px;
+  left: 339px;
+  top: 128px;
+  z-index: 2;
+}
