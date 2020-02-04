@@ -3,6 +3,7 @@ body {
   font-family: "Nunito", sans-serif !important;
   color: #a33327;
 }
+/* Customization */
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -31,7 +32,7 @@ nav * {
   font-size: 0.9rem;
 }
 #banner button:hover {
-  background-color: #000 !important;
+  background-color: #000 !important ;
 }
 /* Services Section */
 #services {
