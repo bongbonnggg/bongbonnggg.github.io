@@ -123,6 +123,12 @@ footer ul li a:hover {
   width: 33.33%;
   height: 300px;
 }
+.swiper-pagination-bullet {
+  background: #fff;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #a33327;
+}
 @media screen and (max-width: 440px) {
   .swiper-container {
     height: 400px;
