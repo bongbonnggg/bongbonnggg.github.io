@@ -119,3 +119,10 @@ footer ul li a:hover {
   top: 128px;
   z-index: 2;
 }
+
+.swiper-slide {
+  background-position: top;
+  background-size: cover;
+  width: 33.33%;
+  height: 300px;
+}
