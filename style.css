@@ -28,10 +28,10 @@ nav * {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-#banner button {
+#banner a {
   font-size: 0.9rem;
 }
-#banner button:hover {
+#banner a:hover {
   background-color: #000 !important ;
 }
 /* Services Section */
@@ -132,5 +132,73 @@ footer ul li a:hover {
 @media screen and (max-width: 440px) {
   .swiper-container {
     height: 400px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #monitor {
+    width: 78px;
+    left: 237px;
+    top: 48px;
+  }
+  #monitor1 {
+    width: 76px;
+    left: 193px;
+    top: 106px;
+  }
+  #monitor2 {
+    width: 76px;
+    left: 273px;
+    top: 108px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #monitor {
+    width: 125px;
+    left: 351px;
+    top: 73px;
+  }
+  #monitor1 {
+    width: 124px;
+    left: 275px;
+    top: 165px;
+  }
+  #monitor2 {
+    width: 123px;
+    left: 406px;
+    top: 165px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #monitor {
+    width: 104px;
+    left: 258px;
+    top: 55px;
+  }
+  #monitor1 {
+    width: 97px;
+    left: 205px;
+    top: 128px;
+  }
+  #monitor2 {
+    width: 93px;
+    left: 301px;
+    top: 128px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #monitor {
+    width: 18.087vw;
+    left: 48.348vw;
+    top: 9.565vw;
+  }
+  #monitor2 {
+    width: 16.174vw;
+    left: 55.652vw;
+    top: 22.261vw;
+  }
+  #monitor1 {
+    width: 16.174vw;
+    left: 39.304vw;
+    top: 22.261vw;
   }
 }
