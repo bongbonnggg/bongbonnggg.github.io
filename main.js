@@ -1,9 +1,6 @@
 gsap.from("#monitor", { duration: 2, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
 gsap.from("#monitor1", { duration: 6, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
 gsap.from("#monitor2", { duration: 4, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
-
-
-
 // Swiper JS - HOME
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
@@ -22,3 +19,5 @@ var swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
     },
 });
+
+
