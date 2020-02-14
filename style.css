@@ -114,10 +114,38 @@ footer ul li a:hover {
 #html {
   width: 10px;
   position: absolute;
-  left: 50%;
+  left: 150px;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -10;
+  opacity: 0;
+}
+#css {
+  width: 10px;
+  position: absolute;
+  left: 250px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  opacity: 0;
+}
+#photoshop {
+  width: 10px;
+  position: absolute;
+  left: 350px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  opacity: 0;
+}
+#wordpress {
+  width: 10px;
+  position: absolute;
+  left: 450px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  opacity: 0;
 }
 
 /* Swiper */
