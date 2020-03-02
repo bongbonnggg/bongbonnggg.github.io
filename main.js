@@ -1,7 +1,7 @@
 //GSAP
 
 var tl = gsap.timeline();
-tl.to('#space', { x: 300, duration: 5, rotate: 50, yoyo: true });
+tl.to('#space', { x: 500, duration: 10, rotate: 50, yoyo: true, repeat: -1 });
 // gsap.from('#space', { x: 300, duration: 5, rotate: 50, repeat: -1 })
 
 gsap.from("#monitor", { duration: 2, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
