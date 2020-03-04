@@ -1,8 +1,9 @@
 //GSAP
 
-var tl = gsap.timeline();
-tl.to('#space', { x: 500, duration: 10, rotate: 50, yoyo: true, repeat: -1 });
-// gsap.from('#space', { x: 300, duration: 5, rotate: 50, repeat: -1 })
+var tl = gsap.timeline({ repeat: -1 });
+tl.to('#space', { x: 500, duration: 10, rotate: 50, yoyo: true, repeat: -1, ease: "power1. out" }, 0);
+tl.to("#space .d", 0.5, { fill: '#A33327', repeat: -1 }, 0);
+tl.to("#space .e", 0.5, { delay: 0.5, fill: '#000', repeat: -1 }, 0);
 
 gsap.from("#monitor", { duration: 2, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
 gsap.from("#monitor1", { duration: 6, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
@@ -13,13 +14,6 @@ gsap.to("#photoshop", { duration: 6, delay: 6, opacity: 1, width: 40, rotate: 36
 gsap.to("#wordpress", { duration: 3, delay: 6, opacity: 1, width: 50, rotate: 360, y: -200, repeat: -1 });
 
 
-//tweens overlap
-// var tl = gsap.timeline();
-// tl.to("#green", { duration: 2, x: 750 })
-//     // insert 1 second before end of timeline
-//     .to("#blue", { duration: 2, x: 750 }, "-=1")
-//     // insert 1 second before end of timeline
-//     .to("#orange", { duration: 2, x: 750 }, "-=1");
 
 // Swiper JS - HOME
 var swiper = new Swiper('.swiper-container', {
