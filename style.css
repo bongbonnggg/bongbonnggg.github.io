@@ -24,11 +24,11 @@ nav * {
   color: #a33327 !important;
 }
 /* Display * */
-#banner,
+/* #banner,
 #services,
 #portfolio {
   display: none;
-}
+} */
 
 /* First Section */
 #banner {
