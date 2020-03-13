@@ -1,9 +1,13 @@
 //GSAP
 
-var tl = gsap.timeline({ repeat: -1 });
-tl.to('#space', { x: 500, duration: 10, rotate: 50, yoyo: true, repeat: -1, ease: "power1. out" }, 0);
-tl.to("#space .d", 0.5, { fill: '#A33327', repeat: -1 }, 0);
-tl.to("#space .e", 0.5, { delay: 0.5, fill: '#000', repeat: -1 }, 0);
+var space = gsap.timeline({ repeat: -1 });
+space.to('#space', { x: 500, duration: 10, rotate: 50, yoyo: true, repeat: -1, ease: Power0.easeNone }, 0);
+space.to("#space .space-d", { fill: '#A33327', repeat: -1 }, 0);
+space.to("#space .space-e", { delay: 0.5, fill: '#000', repeat: -1, }, 0);
+
+var shuttle = gsap.timeline();
+shuttle.to('#shuttle', { duration: 8, x: 1380, ease: Power0.easeNone });
+shuttle.to('#shuttle', { duration: 8, y: -120 }, '-=7');
 
 gsap.from("#monitor", { duration: 2, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
 gsap.from("#monitor1", { duration: 6, x: 300, opacity: 0, scale: 0.5, rotate: 360 });
