@@ -2,6 +2,7 @@ body {
   background-image: url(/images/background.jpg);
   font-family: "Nunito", sans-serif !important;
   color: #a33327;
+  overflow: hidden;
 }
 /* Customization */
 @media (min-width: 1200px) {
@@ -23,11 +24,11 @@ nav * {
   color: #a33327 !important;
 }
 /* Display * */
-/* #banner,
+#banner,
 #services,
 #portfolio {
   display: none;
-} */
+}
 
 /* First Section */
 #banner {
@@ -262,10 +263,14 @@ footer ul li a:hover {
   left: 50px;
   transform: rotate(-30deg);
 }
-#space::after {
-  content: "";
+#shuttle {
   position: absolute;
-  width: 100px;
-  height: 2px;
-  background: #fff;
+  left: 200px;
+  bottom: -22px;
+}
+#personnel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotateY(180deg);
 }
