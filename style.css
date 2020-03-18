@@ -2,9 +2,8 @@ body {
   background-image: url(/images/background.jpg);
   font-family: "Nunito", sans-serif !important;
   color: #a33327;
-  overflow: hidden;
 }
-/* Customization */
+/* !Global */
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -19,18 +18,10 @@ body {
 .color-gray {
   color: #999;
 }
-/* Navigation Bar */
 nav * {
   color: #a33327 !important;
 }
-/* Display * */
-/* #banner,
-#services,
-#portfolio {
-  display: none;
-} */
-
-/* First Section */
+/* !Global */
 #banner {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -41,7 +32,6 @@ nav * {
 #banner a:hover {
   background-color: #000 !important ;
 }
-/* Services Section */
 #services {
   padding-bottom: 200px;
 }
@@ -52,15 +42,15 @@ nav * {
   font-size: 70px;
   margin-bottom: 15px;
 }
-/* Portfolio */
 #portfolio {
   padding-bottom: 200px;
 }
 #portfolio h2 {
   margin-bottom: 100px;
 }
-
-/* About */
+#cta {
+  display: none;
+}
 #about {
   padding-top: 200px;
 }
